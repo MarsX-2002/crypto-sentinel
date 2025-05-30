@@ -9,11 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
+=======
+<<<<<<< HEAD
+    "react-dom": "^19.1.0",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+=======
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)
     "@types/node": "^22.14.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"

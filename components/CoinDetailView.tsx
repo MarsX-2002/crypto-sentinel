@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import { CoinGeckoDetailData, CoinGeckoMarketData, NewsArticle } from '../types';
 import { fetchNewsViaGrpc } from '../services/grpcNewsService'; // Updated import
+=======
+<<<<<<< HEAD
+
+import React, { useEffect, useState } from 'react';
+import { CoinGeckoDetailData, CoinGeckoMarketData, NewsArticle } from '../types';
+import { fetchNewsViaGrpc } from '../services/demoRestNewsService'; // Updated import to correct file
+=======
+import React, { useEffect, useState } from 'react';
+import { CoinGeckoDetailData, CoinGeckoMarketData, NewsArticle } from '../types';
+import { fetchNewsViaGrpc } from '../services/grpcNewsService'; // Updated import
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)
 import NewsCard from './NewsCard';
 import SecurityPanel from './SecurityPanel';
 import LoadingSpinner from './LoadingSpinner';
@@ -119,10 +132,24 @@ const CoinDetailView: React.FC<CoinDetailViewProps> = ({ coinId, marketData, det
 
       {/* News Feed (now using Mocked gRPC Demo) */}
       <div>
+<<<<<<< HEAD
         <h3 className="text-xl font-semibold text-white mb-4">Recent News (Mocked gRPC)</h3>
         {isLoadingNews && <LoadingSpinner text="Loading news (gRPC Mock)..." />}
         {newsError && <ErrorMessage message={newsError} onDismiss={() => setNewsError(null)} />}
         {!isLoadingNews && !newsError && news.length === 0 && <p className="text-gray-400">No recent news found (gRPC Mock).</p>}
+=======
+<<<<<<< HEAD
+        <h3 className="text-xl font-semibold text-white mb-4">Recent News (gRPC Mock Demo)</h3>
+        {isLoadingNews && <LoadingSpinner text="Loading news (gRPC Mock Demo)..." />}
+        {newsError && <ErrorMessage message={newsError} onDismiss={() => setNewsError(null)} />}
+        {!isLoadingNews && !newsError && news.length === 0 && <p className="text-gray-400">No recent news found (gRPC Mock Demo).</p>}
+=======
+        <h3 className="text-xl font-semibold text-white mb-4">Recent News (Mocked gRPC)</h3>
+        {isLoadingNews && <LoadingSpinner text="Loading news (gRPC Mock)..." />}
+        {newsError && <ErrorMessage message={newsError} onDismiss={() => setNewsError(null)} />}
+        {!isLoadingNews && !newsError && news.length === 0 && <p className="text-gray-400">No recent news found (gRPC Mock).</p>}
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)
         <div className="space-y-4">
           {news.map(article => (
             <NewsCard key={article.id} article={article} />
@@ -133,4 +160,12 @@ const CoinDetailView: React.FC<CoinDetailViewProps> = ({ coinId, marketData, det
   );
 };
 
+<<<<<<< HEAD
 export default CoinDetailView;
+=======
+<<<<<<< HEAD
+export default CoinDetailView;
+=======
+export default CoinDetailView;
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)

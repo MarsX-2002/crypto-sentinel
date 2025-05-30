@@ -61,6 +61,11 @@ export const ExternalLinkIcon: React.FC<IconProps> = ({ className = "w-4 h-4 ml-
     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
   </svg>
 );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> cdcf72b (add wireframe)
 
 export const BellIcon: React.FC<IconProps> = ({ className = "w-6 h-6", title, ...rest }) => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={className} {...rest}>
@@ -96,3 +101,7 @@ export const XMarkIcon: React.FC<IconProps> = ({ className = "w-5 h-5", title, .
     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
   </svg>
 );
+<<<<<<< HEAD
+=======
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)

@@ -52,6 +52,11 @@ export interface GroundingChunk {
   web?: GroundingChunkWeb;
   // other types of chunks if needed
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> cdcf72b (add wireframe)
 
 export interface NotificationAction {
   label: string;
@@ -67,3 +72,7 @@ export interface Notification {
   relatedCoinId?: string;
   action?: NotificationAction;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> ea2fb85 (final code)
+>>>>>>> cdcf72b (add wireframe)
