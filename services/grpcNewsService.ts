@@ -12,6 +12,14 @@ const MOCKED_NEWS_DATA: NewsArticle[] = [
     coinId: 'all',
   },
   {
+    id: 'grpc-mock-3',
+    headline: 'Understanding Protocol Buffers in gRPC',
+    source: 'Tech Talks (gRPC Mock)',
+    link: '#',
+    date: new Date(Date.now() - 86400000 * 3).toISOString(), // 3 days ago
+    coinId: 'all',
+  },
+  {
     id: 'grpc-mock-2',
     headline: 'gRPC Insights: The Future of Microservices',
     source: 'gRPC Demo News',
